@@ -1,0 +1,174 @@
+html {
+	font-family: Arial, sans-serif;
+	font-size: .9em;
+	line-height: 1.6em;
+	font-weight: normal;
+	color: #424242;
+	background-color: #e9e9e9;
+	background-image: url('whitebg.jpg');
+}
+
+a:link {
+	color: #ff9900;
+}
+
+a:hover {
+	color: #3299bb;
+}
+
+#topnav a:link {
+	color: #424242;
+	text-decoration: none;
+}
+
+#topnav a:hover {
+	color: white;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+div#one {
+	width: 100%;
+	display: block;
+	background-color: #ff9900;
+	background-image: url('orangebg.jpg');
+	height: 30px;
+	font-size: 1.25em;
+	text-align: center;
+	padding: 5px 0;
+}
+
+h1 a:hover {
+	text-decoration: none;
+	color: #ff9900;
+}
+
+#topnav {
+	list-style-type: none;
+	margin: 0 auto;
+	width: 768px;
+	padding-top: 2px;
+}
+
+#topnav li {
+	display: block inline;
+	float: left;
+	text-align: center;
+	padding-left: 100px;
+}
+
+div#two, div#five {
+	width: 100%;
+	display: block;
+	background-color: #3299bb;
+	background-image: url('bluebg.jpg');
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+
+div#five {
+	margin-top: 20px;
+}
+
+div#main_about, div#main_portfolio, div#main_blog, div#main_contact {
+	width: 768px;
+	margin: 0 auto;
+}
+
+#main_about h1 {
+	font-size: 1.8em;
+	text-align: left;
+	line-height: 1.4em;
+	font-weight: normal;
+	padding-top: 7px;
+}
+
+#main_about h1 small {
+	font-size: .9em;
+}
+
+#main_portfolio p, #main_blog p, #main_blog ul, #main_contact p {
+	text-align: left;
+}
+
+.right {
+	float: right;
+	margin-left: 10px;
+}
+
+.left {
+	float: left;
+	margin-right: 10px;
+}
+
+.featured {
+	height: 150px;
+	width: 256px;
+	text-align: center;
+	float: left;
+	display: block;
+	padding-bottom: 10px;
+}
+
+#three, #four {
+	width: 100%;
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+	clear: both;
+}
+
+h2 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.5em;
+}
+
+.form-left {
+	float: left;
+	width: 49%;
+}
+
+.form-right {
+	float: right;
+	width: 49%;
+}
+
+form {
+	text-align: left;
+}
+
+input, textarea {
+	width: 100%;
+	padding: 5px;
+	color: #424242;
+	border: 1px solid white;
+	font-family: Arial, sans-serif;
+	font-size: 1em;
+}
+
+textarea {
+	height: 84px;
+	margin-top: 2px;
+}
+
+.form-button {
+	clear: both;
+	text-align: center;
+	padding-top: 7px;
+}
+
+.form-button button {
+	background-color: #ff9900;
+	border: 1px solid #ff9900;
+	width: 150px;
+	padding: 5px;
+}
+
+label {
+	font-weight: bold;
+}

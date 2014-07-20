@@ -1,3 +1,12 @@
-<html>
-<p>Hello world</p>
-</html>
+---
+layout: main
+title: Portfolio of Ashley M. Miller
+---
+<a title="blog" id="blog"></a><h2>Latest Blog Posts</h2>
+<ul>
+{
+ %%
+ for post in site.posts %% }
+<li><a href="{{ post.url }}">{{ post.date }} - {{ post.title }}</a></li>
+{ %% endfor %% }</ul>
+<div class="right"><a href="blog.html">Read more posts &gt;&gt;</a></div>
