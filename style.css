@@ -10,10 +10,27 @@ html {
 
 a:link {
 	color: #ff9900;
+	text-decoration: underline;
+}
+
+a:visited {
+	color: #424242;	
 }
 
 a:hover {
 	color: #3299bb;
+}
+
+a:link img {
+	border: solid 2px #ff9900;
+}
+
+a:hover img {
+	border: solid 2px #3299bb;
+}
+
+a:visited img {
+	border: solid 2px #424242;
 }
 
 #topnav a:link {
@@ -112,6 +129,10 @@ div#main_about, div#main_portfolio, div#main_blog, div#main_contact {
 	float: left;
 	display: block;
 	padding-bottom: 10px;
+}
+
+.featured img {
+	height: 100%;
 }
 
 #three, #four {

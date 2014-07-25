@@ -1,39 +1,13 @@
 <html>
 <head>
-<link rel="stylesheet" href="style.css"/>
+<link rel="stylesheet" href="{{ base.url }}/style.css"/>
 <title>{{ page.title }}</title>
 </head>
 <body>
 
 {% include navbar.html %}
 
-<div id="two">
-<div id="main_about">
-{% include maintop.html %}
-</div>
-</div>
-
-<div id="three">
-<div id="main_portfolio">
-<a title="portfolio" id="portfolio"></a><h2>Featured Work</h2>
-<div class="featured"><img src="lcilfront.jpg" style="height: 100%;" /></div><div class="featured"><img src="lcilvac.jpg" style="height: 100%;" /></div><div class="featured"><img src="fpc.jpg" style="height: 100%;" /></div>
-<div class="right"><a href="portfolio.html">See more in my portfolio &gt;&gt;</a></div>
-</div>
-</div>
-
-<div id="four">
-<div id="main_blog">
-{content}
-</div>
-</div>
-
-<div id="five">
-<div id="main_contact">
-<a title="contact" id="contact"></a><h2>Contact Me</h2>
-{% include form.html %}
-
-</div>
-</div>
+{{ content }}
 
 </body>
 </html>
