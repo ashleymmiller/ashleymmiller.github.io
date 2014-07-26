@@ -5,23 +5,23 @@ html {
 	font-weight: normal;
 	color: #424242;
 	background-color: #e9e9e9;
-	background-image: url('whitebg.jpg');
+	background-image: url('{{ base.url }}/images/whitebg.jpg');
 }
 
-a:link {
+a:link, h1 a:link, h1 a:visited {
 	color: #ff9900;
 	text-decoration: underline;
 }
 
 a:visited {
-	color: #424242;	
+	color: #cf7c00;	
 }
 
 a:hover {
 	color: #3299bb;
 }
 
-a:link img {
+a:link img, a:active img {
 	border: solid 2px #ff9900;
 }
 
@@ -29,16 +29,12 @@ a:hover img {
 	border: solid 2px #3299bb;
 }
 
-a:visited img {
-	border: solid 2px #424242;
-}
-
-#topnav a:link {
+#topnav a:link, #topnav a:visited {
 	color: #424242;
 	text-decoration: none;
 }
 
-#topnav a:hover {
+#topnav a:hover, #topnav a:active {
 	color: white;
 }
 
@@ -51,16 +47,21 @@ div#one {
 	width: 100%;
 	display: block;
 	background-color: #ff9900;
-	background-image: url('orangebg.jpg');
+	background-image: url('{{ base.url }}/images/orangebg.jpg');
 	height: 30px;
 	font-size: 1.25em;
 	text-align: center;
 	padding: 5px 0;
 }
 
-h1 a:hover {
+h1 a:hover, h1 a:active {
 	text-decoration: none;
 	color: #ff9900;
+}
+
+h1 img {
+	padding-right: 5px;
+	border: 0px;
 }
 
 #topnav {
@@ -81,19 +82,27 @@ div#two, div#five {
 	width: 100%;
 	display: block;
 	background-color: #3299bb;
-	background-image: url('bluebg.jpg');
+	background-image: url('{{ base.url }}/images/bluebg.jpg');
 	color: #fff;
 	padding: 10px 0;
 	text-align: center;
 }
 
 div#five {
-	margin-top: 20px;
+	margin-top: 50px;
 }
 
 div#main_about, div#main_portfolio, div#main_blog, div#main_contact {
 	width: 768px;
 	margin: 0 auto;
+}
+
+#main_about img {
+	border: 0px;
+}
+
+div#two {
+	height: 150px;
 }
 
 #main_about h1 {
@@ -105,11 +114,13 @@ div#main_about, div#main_portfolio, div#main_blog, div#main_contact {
 }
 
 #main_about h1 small {
-	font-size: .9em;
+	font-size: .85em;
 }
 
 #main_portfolio p, #main_blog p, #main_blog ul, #main_contact p {
 	text-align: left;
+	font-size: 1.2em;
+	line-height: 1.8em;
 }
 
 .right {
@@ -120,6 +131,15 @@ div#main_about, div#main_portfolio, div#main_blog, div#main_contact {
 .left {
 	float: left;
 	margin-right: 10px;
+}
+
+.center {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.clear {
+	clear:both;
 }
 
 .featured {
@@ -135,6 +155,17 @@ div#main_about, div#main_portfolio, div#main_blog, div#main_contact {
 	height: 100%;
 }
 
+.featured h2 {
+	text-align: center;
+	padding-top: 0px;
+	margin-top: 5px;
+	font-size: 1.3em;
+}
+
+.portfolio {
+	width: 100%;
+}
+
 #three, #four {
 	width: 100%;
 	display: block;
@@ -147,6 +178,20 @@ h2 {
 	text-align: left;
 	font-weight: normal;
 	font-size: 1.5em;
+	text-transform: capitalize;
+}
+
+h3 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.25em;
+	color: #3299bb;
+}
+
+h3 em {
+	float: right;
+	color: #72b0c5;
+	font-size: .9em;
 }
 
 .form-left {
@@ -180,7 +225,7 @@ textarea {
 .form-button {
 	clear: both;
 	text-align: center;
-	padding-top: 7px;
+	padding-top: 25px;
 }
 
 .form-button button {
@@ -188,8 +233,40 @@ textarea {
 	border: 1px solid #ff9900;
 	width: 150px;
 	padding: 5px;
+	font-size: 1.2em;
 }
 
 label {
 	font-weight: bold;
+}
+
+#four label {
+	color: #424242;
+}
+
+#four form {
+	margin-top: 20px;
+}
+
+.blogtitle {
+	text-transform: capitalize;
+}
+
+blockquote {
+	margin: 0 auto;
+	width: 85%;
+	border-left: 5px solid #3299bb;
+	padding-left: 15px;
+}
+
+abbr {
+	border-bottom: dashed 1px #fff;
+}
+
+.half {
+	width: 50%;
+}
+
+.quarter {
+	width: 25%;
 }

@@ -3,11 +3,15 @@ layout: main
 ---
 
 <div id="two">
-<div id="main_about"><h1><small>I wrote</small> "{{ page.title }}" <small> on {{ page.date | date: "%B %d, %Y" }}.  You can read more posts like it in {{page.categories}}.</small></h1>
+<div id="main_about"><a href="{{ base.url }}/index.html"><img src="{{ base.url }}/images/az.jpg" class="left" /></a><h1><span class="blogtitle">{{ page.title }}</span> <small>was written on {{ page.date | date: "%B %d, %Y" }}.<br/>You can read more posts like it in <a href="{{ base.url }}/{{page.categories}}.html" class="blogtitle">{{page.categories}}</a>, or you can read all posts at the <a href="{{ base.url }}/blog.html">Blog</a>.</small></h1>
 </div></div>
 
 <div id="four">
 <div id="main_blog">
+{% if page.image And page.image != "" And post.image != nil %}
+<a href="{{ page.weburl }}" target="_blank"><img alt="{{ post.title }}" src="{{ base.url }}/images/{{ page.image }}" class="portfolio" /></a>
+{% endif %}
+
 {{ content }}
 </div>
 </div>

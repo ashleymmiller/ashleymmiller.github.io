@@ -11,11 +11,11 @@ title: Portfolio of Ashley M. Miller
 
 <div id="three">
 <div id="main_portfolio">
-<a title="portfolio" id="portfolio"></a><h2>Featured Work</h2>
-<div class="featured"><a href="#"><img src="lcilfront.jpg" /></a></div>
-<div class="featured"><a href="#"><img src="lcilvac.jpg" /></a></div>
-<div class="featured"><a href="#"><img src="fpc.jpg" /></a></div>
-<div class="right"><a href="portfolio.html">See more in my portfolio &raquo;</a></div>
+<a title="portfolio" id="portfolio"></a><h2>Latest Work</h2>
+{% for post in site.categories.portfolio limit:3 %}
+<div class="featured"><a href="{{ post.url }}"><img src="{{ base.url }}/images/{{ post.image }}" alt="{{ post.title }}" /></a></div>
+{% endfor %}
+<p class="right clear"><a href="portfolio.html">See more in my portfolio &raquo;</a></p>
 </div>
 </div>
 
@@ -24,18 +24,18 @@ title: Portfolio of Ashley M. Miller
 
 <a title="blog" id="blog"></a><h2>Latest Blog Posts</h2>
 <ul>
-{% for post in site.posts %}
-      <li>{{ page.date }} <a href="{{ post.url }}">{{ post.title }}</a></li>
+{% for post in site.posts limit:5 %}
+      <li>{{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
     {% endfor %}
 </ul>
-<div class="right"><a href="blog.html">Read more posts &raquo;</a></div>
+<p class="right clear"><a href="blog.html">Read more posts &raquo;</a></p>
 
 </div>
 </div>
 
 <div id="five">
 <div id="main_contact">
-<a title="contact" id="contact"></a><h2>Contact Me</h2>
+<a name="contact" id="contact"></a><h2>Contact Me</h2>
 {% include form.html %}
 
 </div>

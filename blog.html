@@ -1,0 +1,21 @@
+---
+layout: main
+title: Blog of Ashley M. Miller
+---
+
+<div id="two">
+<div id="main_about"><a href="{{ base.url }}/index.html"><img src="{{ base.url }}/images/az.jpg" class="left" /></a><h1>My name is Ashley Miller and I write things.<br/><small>I write about <a href="{{ base.url }}/personal.html">personal stuff</a>, <a href="{{ base.url }}/portfolio.html">portfolio pieces</a>, and <a href="{{ base.url }}/tech.html">technology</a>.</small></h1>
+</div></div>
+
+<div id="four">
+<div id="main_blog">		
+<ul>
+{% for post in site.posts %}
+      <li>{{ post.date | date: "%B %d, %Y" }}: <a href="{{ post.url }}">{{ post.title }}</a></li>
+    {% endfor %}
+</ul>		
+</div>
+</div>
+
+</body>
+</html>

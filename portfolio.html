@@ -1,0 +1,21 @@
+---
+layout: main
+title: Portfolio of Ashley M. Miller
+---
+
+<div id="two">
+<div id="main_about">
+<a href="{{ base.url }}/index.html"><img src="{{ base.url }}/images/az.jpg" class="left" /></a><h1>My name is Ashley Miller and I like making websites.<br/><small>Click on the images below for a write-up about each of my projects.</small></h1>
+</div>
+</div>
+
+<div id="four">
+<div id="main_blog">
+
+{% for post in site.categories.portfolio %}
+<div class="featured"><a href="{{ post.url }}"><img src="{{ base.url }}/images/{{ post.image }}" alt="{{ post.title }}" /></a>
+<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a></div>
+{% endfor %}
+
+</div>
+</div>
