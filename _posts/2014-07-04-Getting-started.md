@@ -20,3 +20,6 @@ I have no idea what I\'m doing, so here\'s a list of sources I used while gettin
 - [Source](https://github.com/jasonrudolph/jasonrudolph.com) for [Jason Rudolph](http://jasonrudolph.com/)
 - [Jekyll Template Toolkit](https://github.com/NetzwergX/jekyll-template-toolkit)
 - [This comment](https://github.com/Shopify/liquid/issues/223#issuecomment-39419420) by [chrishough](https://github.com/chrishough)
+- [Modern Clean CSS Sticky Footer](http://mystrd.at/modern-clean-css-sticky-footer/)
+- [Snaptortoise's Jekyll RSS Feeds](https://github.com/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml)
+- [Building a Better Sitemap.xml with Jekyll](http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/)

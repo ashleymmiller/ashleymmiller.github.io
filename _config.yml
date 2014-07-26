@@ -1,2 +1,5 @@
+name: Portfolio of Ashley M. Miller
+description: A personal portfolio of Ashley M. Miller
+url: http://ashleymmiller.com
 markdown: kramdown
-paginate_path: '/blog/page:num/'
+permalink: /blog/:categories/:title.html

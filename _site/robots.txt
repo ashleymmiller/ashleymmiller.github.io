@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: {{ site.url }}/blog
+Disallow: {{ site.url }}/blog/tech
+Disallow: {{ site.url }}/blog/portfolio
+Disallow: {{ site.url }}/blog/personal
+Sitemap: {{ site.url }}/sitemap.xml

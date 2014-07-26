@@ -6,6 +6,12 @@ html {
 	color: #424242;
 	background-color: #e9e9e9;
 	background-image: url('{{ base.url }}/images/whitebg.jpg');
+	position: relative;
+	min-height: 100%;
+}
+
+body {
+	margin: 0 0 30px; /* bottom = footer height */
 }
 
 a:link, h1 a:link, h1 a:visited {
@@ -29,12 +35,12 @@ a:hover img {
 	border: solid 2px #3299bb;
 }
 
-#topnav a:link, #topnav a:visited {
+#topnav a:link, #topnav a:visited, footer a:link, footer a:visited {
 	color: #424242;
 	text-decoration: none;
 }
 
-#topnav a:hover, #topnav a:active {
+#topnav a:hover, #topnav a:active, footer a:hover, footer a:active {
 	color: white;
 }
 
@@ -43,7 +49,7 @@ body {
 	padding: 0;
 }
 
-div#one {
+div#one, footer {
 	width: 100%;
 	display: block;
 	background-color: #ff9900;
@@ -54,14 +60,26 @@ div#one {
 	padding: 5px 0;
 }
 
+footer {
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	height: 40px;
+	width: 100%;
+}
+
 h1 a:hover, h1 a:active {
 	text-decoration: none;
 	color: #ff9900;
 }
 
-h1 img {
+h1 img, div#main_footer img {
 	padding-right: 5px;
 	border: 0px;
+}
+
+div#main_footer img {
+	padding-top: 5px;
 }
 
 #topnav {
@@ -90,9 +108,10 @@ div#two, div#five {
 
 div#five {
 	margin-top: 50px;
+	margin-bottom: 35px;
 }
 
-div#main_about, div#main_portfolio, div#main_blog, div#main_contact {
+div#main_about, div#main_portfolio, div#main_blog, div#main_contact, div#main_footer {
 	width: 768px;
 	margin: 0 auto;
 }
@@ -269,4 +288,10 @@ abbr {
 
 .quarter {
 	width: 25%;
+}
+
+#spacer {
+	height: 40px;
+	width: 100%;
+	display: block;
 }

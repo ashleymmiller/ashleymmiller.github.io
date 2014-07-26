@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="{{ base.url }}/style.css"/>
+<link rel="alternate" type="application/rss+xml" title="{{ site.name }}" href="{{ site.url }}/feed.xml">
 <title>{{ page.title }}</title>
 </head>
 <body>
@@ -9,5 +10,4 @@
 
 {{ content }}
 
-</body>
-</html>
+{% include footer.html %}

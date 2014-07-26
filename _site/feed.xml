@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title></title>
+		<description></description>		
+		<link></link>
+		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Getting started with Jekyll</title>
+				<description>&lt;p&gt;I have no idea what I&#39;m doing, so here&#39;s a list of sources I used while getting this set up and ready to go.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyll-windows.juthilo.com/&quot;&gt;Run Jekyll on Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.thinkful.com/learn/a-guide-to-using-github-pages/start/new-project/user-page/&quot;&gt;A guide to using Github Pages&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/juthilo/run-jekyll-on-windows&quot;&gt;How to run Jekyll on Windows&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pixelcog.com/blog/2013/jekyll-from-scratch-introduction/&quot;&gt;Jekyll From Scratch - Getting Started&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/&quot;&gt;Jekyll From Scratch - Core Architecture&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://pixelcog.com/blog/2013/jekyll-from-scratch-extending-jekyll/&quot;&gt;Jekyll From Scratch - Extending Jekyll&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://jekyllrb.com/docs/home/&quot;&gt;Jekyll Docs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://daringfireball.net/projects/markdown/&quot;&gt;Markdown Syntax&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://sebastien.saunier.me/blog/2014/04/15/you-do-not-need-a-database-for-your-contact-form.html&quot;&gt;You do not need a database for your contact form&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mojombo/mojombo.github.io&quot;&gt;Source&lt;/a&gt; for &lt;a href=&quot;http://tom.preston-werner.com/&quot;&gt;Tom Preston-Werner&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/tatey/tatey.com&quot;&gt;Source&lt;/a&gt; for &lt;a href=&quot;http://tatey.com/&quot;&gt;Tatey.com&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jasonrudolph/jasonrudolph.com&quot;&gt;Source&lt;/a&gt; for &lt;a href=&quot;http://jasonrudolph.com/&quot;&gt;Jason Rudolph&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/NetzwergX/jekyll-template-toolkit&quot;&gt;Jekyll Template Toolkit&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Shopify/liquid/issues/223#issuecomment-39419420&quot;&gt;This comment&lt;/a&gt; by &lt;a href=&quot;https://github.com/chrishough&quot;&gt;chrishough&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://mystrd.at/modern-clean-css-sticky-footer/&quot;&gt;Modern Clean CSS Sticky Footer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/snaptortoise/jekyll-rss-feeds/blob/master/feed.xml&quot;&gt;Snaptortoise’s Jekyll RSS Feeds&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://davidensinger.com/2013/11/building-a-better-sitemap-xml-with-jekyll/&quot;&gt;Building a Better Sitemap.xml with Jekyll&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+				<pubDate>Fri, 04 Jul 2014 00:00:00 -0500</pubDate>
+				<link>/blog/tech/Getting-started.html</link>
+				<guid isPermaLink="true">/blog/tech/Getting-started.html</guid>
+			</item>
+		
+			<item>
+				<title>Front Page of Lake County, IL</title>
+				<description>&lt;p&gt;&lt;em&gt;This is a backdated post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Very shortly after beginning my job at &lt;a href=&quot;http://www.lakecountyil.gov/&quot;&gt;Lake County&lt;/a&gt;, I told my boss that my goal was to get Lake County a &lt;a href=&quot;http://www.govtech.com/cdg/digital-government-achievement/&quot;&gt;GovTech award&lt;/a&gt;.  Redesigning the front page is the first step towards that goal.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-old&quot;&gt;The Old&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/lcilfront_old.jpg&quot;&gt;&lt;img src=&quot;/images/lcilfront_old.jpg&quot; class=&quot;right half&quot; alt=&quot;Old front page&quot; /&gt;&lt;/a&gt; The old layout was a mishmash of icons and images and styles and while it kind of contained a whole bunch of information, it was missing context.  It was definitely ugly.  The image to the right is a screenshot from the &lt;a href=&quot;https://archive.org/web/&quot;&gt;Wayback Machine&lt;/a&gt; and though some of the images are broken, it definitely captures the overwhelming feeling of the old front page.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-new&quot;&gt;The New&lt;/h2&gt;
+
+&lt;h3 id=&quot;the-tabs&quot;&gt;The Tabs&lt;/h3&gt;
+
+&lt;p&gt;The initial sketches were primarily inspired by GovTech winner &lt;a href=&quot;http://www.acgov.org/&quot;&gt;Alameda County, CA&lt;/a&gt;.  We wanted to create tabs so that we could still have a lot of information on the main page, without overwhelming the visitors.&lt;/p&gt;
+
+&lt;p&gt;We used statistics from &lt;a href=&quot;http://siteimprove.com/&quot;&gt;Siteimprove&lt;/a&gt; to determine what exactly should exist on the front page.  The main thing we ended up removing was the slideshow.  In about a year, each slideshow story had only gotten tens of hits, out of over a million visitors. Due to politics, there were some things we couldn&#39;t get rid of entirely, but we could move them.  &lt;/p&gt;
+
+&lt;p&gt;We used those same statistics to help us determine what those tabs should be broken down into.  Ultimately, we ended up with News, County Board, Property Tax, Jobs &amp;amp; Doing Business, Services, Connect, and Transparency.  Most of the links were reorganized into those categories and then we added a lot more.  &lt;/p&gt;
+
+&lt;p&gt;We ended up with a lot more information, but also a lot more context.  For example, one of the old links said &quot;Transparency/OpenGov&quot;.  There was no context to what OpenGov meant, even when paired with Transparency.  The new tab now describes transparency initiatives and provides links to all of the items mentioned.&lt;/p&gt;
+
+&lt;h3 id=&quot;top-10-searches-whats-trending-and-featured-videos&quot;&gt;Top 10 Searches, What&#39;s Trending, and Featured Videos&lt;/h3&gt;
+
+&lt;p&gt;The bottom bar replaced the red sidebar from the old layout.  The information was expanded.  Top 10 Searches is kind of self-explanatory and is manually updated once a week.  What&#39;s Trending describes new initiatives in the county.  (This one could be better named, I think.)  And Featured Videos is also self-explanatory.&lt;/p&gt;
+
+&lt;h3 id=&quot;header-and-footer&quot;&gt;Header and Footer&lt;/h3&gt;
+
+&lt;p&gt;What I could do personally with the Header and Footer was limited.  Changes were either mocked-up in Photoshop or coded quickly with Notepad and then handed off to the Sharepoint admin for final changes.  We wanted to make the search bar more prominent, add a pop-up for people to sign up for all newsletters available in the county, and we wanted to expand the footer.&lt;/p&gt;
+
+&lt;h2 id=&quot;whats-next&quot;&gt;What&#39;s Next?&lt;/h2&gt;
+
+&lt;p&gt;I&#39;m currently in the process of condensing the top navigation so that users do not have to hover through many layers of drop-down menus.  We’ve also put in a request for funding for a new &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt; that gets us away from Sharepoint.  That will also give us the opportunity to completely redo the layout, which will only get us closer &lt;/p&gt;
+</description>
+				<pubDate>Sun, 01 Jun 2014 00:00:00 -0500</pubDate>
+				<link>/blog/portfolio/Front-page.html</link>
+				<guid isPermaLink="true">/blog/portfolio/Front-page.html</guid>
+			</item>
+		
+			<item>
+				<title>The VAC</title>
+				<description>&lt;p&gt;&lt;em&gt;This is a backdated post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;The &lt;a href=&quot;http://www.lakecountyil.gov/Veterans/Pages/default.aspx&quot;&gt;Veterans Assistance Commission (VAC) website&lt;/a&gt; was a large project.  They are a small, overworked department at Lake County and were in need of help on many different communications aspect.  They asked other members of the Communications department to create a brochure for them and I took the opportunity to redesign their website at the same time.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-problem&quot;&gt;The Problem&lt;/h2&gt;
+
+&lt;p&gt;Though there are a lot of amazing services for veterans at the &lt;abbr title=&quot;Veterans Assistance Commission&quot;&gt;VAC&lt;/abbr&gt;, you would not know it from the original website.  It had so few pages I could count them on only two hands and the information was not presented in an easy, readable format.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-process&quot;&gt;The Process&lt;/h2&gt;
+
+&lt;p&gt;The first step to this project was to completely reorganize and rewrite all of their information.  I created a list of the content we were going to put on the site and then organized it in a manner that would have made sense to outsiders.  I am unable to know each and every department in the county at an intimate level, so I have a unique outsider perspective.  We also gathered photos from &lt;abbr title=&quot;Veterans Assistance Commission&quot;&gt;VAC&lt;/abbr&gt; events, so that monotonous text could be broken up.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-front-page&quot;&gt;The Front Page&lt;/h3&gt;
+
+&lt;p&gt;As is every project at Lake County, it was an exercise in designing with restrictions.  I am unable to change the overall layout, like the top navigation, styling of sidebars, or the footer.
+  I was able to create a &lt;a href=&quot;http://www.lakecountyil.gov/Veterans/Pages/default.aspx&quot;&gt;pleasing landing page&lt;/a&gt; that displays the categories (and a subtitle to give context), allows the members of the &lt;abbr title=&quot;Veterans Assistance Commission&quot;&gt;VAC&lt;/abbr&gt; to promote new services, and also gives users a brief introduction to the &lt;abbr title=&quot;Veterans Assistance Commission&quot;&gt;VAC&lt;/abbr&gt;.&lt;/p&gt;
+
+&lt;h3 id=&quot;eligibility&quot;&gt;Eligibility&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.lakecountyil.gov/Veterans/Pages/Eligibility.aspx&quot;&gt;This page&lt;/a&gt; did not exist on the original site, so veterans looking to find eligibility were forced to call the &lt;abbr title=&quot;Veterans Assistance Commission&quot;&gt;VAC&lt;/abbr&gt; to find the information they were looking for.  This table cleanly displays elibility status.&lt;/p&gt;
+
+&lt;h3 id=&quot;applications&quot;&gt;Applications&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.lakecountyil.gov/Veterans/Pages/Applications.aspx&quot;&gt;This page&lt;/a&gt; condenses all application information into one page.  The application is clearly listed at the top and is no longer lost in the middle of a whole bunch of text.  The bottom two sections (Required Documents and How to Request DD214) are new to the site.&lt;/p&gt;
+
+&lt;h3 id=&quot;assistance&quot;&gt;Assistance&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.lakecountyil.gov/Veterans/Assistance/Pages/default.aspx&quot;&gt;This section&lt;/a&gt; required the most work because very little of this information was available on the original website.  We wrote, rewrote, and reorganized everything into meaningful categories.&lt;/p&gt;
+
+&lt;h3 id=&quot;about-the-vac&quot;&gt;About the VAC&lt;/h3&gt;
+
+&lt;p&gt;I learned even more about Sharepoint while developing the &lt;a href=&quot;http://www.lakecountyil.gov/Veterans/About/Pages/default.aspx&quot;&gt;About section&lt;/a&gt;.  The About section lists agendas, minutes, and reports from various meetings and the staff had issues remembering how to appropriately post PDFs to their website.  To ease their work load, I used a webpart to list tagged documents in a specific order.&lt;/p&gt;
+
+&lt;h3 id=&quot;affiliated-groups&quot;&gt;Affiliated Groups&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;http://www.lakecountyil.gov/Veterans/Affiliates/Pages/default.aspx&quot;&gt;The content on Affiliated Groups&lt;/a&gt; was easy to organize.  It is primarily made of links to the affiliated groups, though there are actual pages if the group submitted a write-up.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;When we showed the finished product to the &lt;abbr title=&quot;Veterans Assistance Commission&quot;&gt;VAC&lt;/abbr&gt;, they asked if we could make it live today.  I call that a rousing success.&lt;/p&gt;
+
+&lt;p&gt;Though I still have issues with Sharepoint as an external website &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt;, it did provide solutions to the content editors problems.&lt;/p&gt;
+</description>
+				<pubDate>Thu, 29 May 2014 00:00:00 -0500</pubDate>
+				<link>/blog/portfolio/The-VAC.html</link>
+				<guid isPermaLink="true">/blog/portfolio/The-VAC.html</guid>
+			</item>
+		
+			<item>
+				<title>SWALCO</title>
+				<description>&lt;p&gt;&lt;em&gt;This is a backdated post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;I started working at the county in late January.  My first big project came from the &lt;a href=&quot;http://www.swalco.org/&quot;&gt;Solid Waste Agency of Lake County (SWALCO)&lt;/a&gt;. I was still unfamiliar with Sharepoint at this time, though I was quickly learning.  This ended up being a perfect starting point.&lt;/p&gt;
+
+&lt;p&gt;&lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; got a minor facelift and most of the work went into reorganizing and rewriting pages.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-process&quot;&gt;The Process&lt;/h2&gt;
+
+&lt;p&gt;Designing sites at the county is an exercise in restrictions.  I am unable to change major parts of the layout, including top navigation, background, search bars, etc.  So instead, I make what I can awesome.&lt;/p&gt;
+
+&lt;p&gt;I listed every single page available on their website and reordered them into meaningful categories.  Once this was approved by the entire group, I set about on the monumental task of moving pages and publications around.  I did everything manually because I lacked some permissions in Sharepoint that would have allowed me to move things without breaking links.  This did ultimately work out to my benefit because then I could recode everything semantically as I worked, even if it did take longer.&lt;/p&gt;
+
+&lt;h3 id=&quot;the-front-page&quot;&gt;The Front Page&lt;/h3&gt;
+
+&lt;p&gt;&lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; wanted something a little more fun and colorful than the other county departments, so I obliged.  I gave their most popular categories large, rainbow-colored buttons and gave their major initiative (Recycle First Trash Last) top billing.&lt;/p&gt;
+
+&lt;p&gt;The content editors at &lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; are constantly updating the news section with new publications and new events.  The old layout required users to scroll past several screens to see the news.  By putting the news next to the introduction, users see everything much more easily.&lt;/p&gt;
+
+&lt;h3 id=&quot;subsections&quot;&gt;Subsections&lt;/h3&gt;
+
+&lt;p&gt;Because each member of &lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; was essentially in charge of a specific function of their department, everyone had a presence on the website.  If you look really hard, you can see different personalities in each page, even though everything is still very consistent.&lt;/p&gt;
+
+&lt;h2 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h2&gt;
+
+&lt;p&gt;Looking at it a couple months on, there are a lot of things I would do differently.  But for someone who had never touched Sharepoint before in their life, I think it was a fine effort.  And &lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; still loves their page, which is really the most important thing.&lt;/p&gt;
+</description>
+				<pubDate>Fri, 21 Mar 2014 00:00:00 -0500</pubDate>
+				<link>/blog/portfolio/SWALCO.html</link>
+				<guid isPermaLink="true">/blog/portfolio/SWALCO.html</guid>
+			</item>
+		
+	</channel>
+</rss>
