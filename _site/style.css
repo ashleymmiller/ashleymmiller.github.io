@@ -142,6 +142,10 @@ div#two {
 	line-height: 1.8em;
 }
 
+#main_blog .featured {
+	margin-bottom: 60px;
+}
+
 .right {
 	float: right;
 	margin-left: 10px;
@@ -283,15 +287,29 @@ abbr {
 }
 
 .half {
-	width: 50%;
+	width: 48%;
+	margin-bottom: 10px;
 }
 
 .quarter {
-	width: 25%;
+	width: 23%;
+	margin-bottom: 15px;
 }
 
 #spacer {
 	height: 40px;
 	width: 100%;
 	display: block;
+}
+
+.2columns {
+	columns: 384px 2;
+	-webkit-columns: 384px 2; /* Safari and Chrome */
+	-moz-columns: 384px 2; /* Firefox */
+}
+
+.3columns {
+	columns: 256px 3;
+	-webkit-columns: 256px 3; /* Safari and Chrome */
+	-moz-columns: 256px 3; /* Firefox */
 }

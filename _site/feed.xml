@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 	<channel>
-		<title></title>
-		<description></description>		
-		<link></link>
-		<atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+		<title>Portfolio of Ashley M. Miller</title>
+		<description>A personal portfolio of Ashley M. Miller</description>		
+		<link>http://ashleymmiller.com</link>
+		<atom:link href="http://ashleymmiller.com/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>Getting started with Jekyll</title>
@@ -31,8 +31,8 @@
 &lt;/ul&gt;
 </description>
 				<pubDate>Fri, 04 Jul 2014 00:00:00 -0500</pubDate>
-				<link>/blog/tech/Getting-started.html</link>
-				<guid isPermaLink="true">/blog/tech/Getting-started.html</guid>
+				<link>http://ashleymmiller.com/blog/tech/Getting-started.html</link>
+				<guid isPermaLink="true">http://ashleymmiller.com/blog/tech/Getting-started.html</guid>
 			</item>
 		
 			<item>
@@ -67,11 +67,41 @@
 
 &lt;h2 id=&quot;whats-next&quot;&gt;What&#39;s Next?&lt;/h2&gt;
 
-&lt;p&gt;I&#39;m currently in the process of condensing the top navigation so that users do not have to hover through many layers of drop-down menus.  We’ve also put in a request for funding for a new &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt; that gets us away from Sharepoint.  That will also give us the opportunity to completely redo the layout, which will only get us closer &lt;/p&gt;
+&lt;p&gt;I&#39;m currently in the process of condensing the top navigation so that users do not have to hover through many layers of drop-down menus.  We&#39;ve also put in a request for funding for a new &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt; that gets us away from Sharepoint.  That will also give us the opportunity to completely redo the layout, which will only get us closer &lt;/p&gt;
+</description>
+				<pubDate>Tue, 10 Jun 2014 00:00:00 -0500</pubDate>
+				<link>http://ashleymmiller.com/blog/portfolio/Front-page.html</link>
+				<guid isPermaLink="true">http://ashleymmiller.com/blog/portfolio/Front-page.html</guid>
+			</item>
+		
+			<item>
+				<title>ForeFront Packaging Consultants</title>
+				<description>&lt;p&gt;&lt;em&gt;This is a backdated post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/fpc_old.jpg&quot;&gt;&lt;img src=&quot;/images/fpc_old.jpg&quot; class=&quot;right half&quot; alt=&quot;Old front page&quot; /&gt;&lt;/a&gt;The &lt;a href=&quot;http://fpcpackaging.com/&quot;&gt;ForeFront Packaging Consultants (FPC)&lt;/a&gt; website was in need of a complete overhaul.  While preparations were being made for the rebranding, I performed minor updates to the old website, pictured on the right.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.linkedin.com/pub/frederick-z-vallarta/32/162/817&quot;&gt;Frederick Vallarta&lt;/a&gt; created the logo and inspired by it and other professional websites, an employee and I started to redesign the website.  We went through many sketches, some of which are pictured below, until we came across an image (collected as part of a mood/idea board) that inspired the blue waves.  The layout kind of fell into place after that point.&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/fpc_1.jpg&quot;&gt;&lt;img src=&quot;/images/fpc_1.jpg&quot; class=&quot;left quarter&quot; alt=&quot;One of the preliminary sketches&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;/images/fpc_2.jpg&quot;&gt;&lt;img src=&quot;/images/fpc_2.jpg&quot; class=&quot;left quarter&quot; alt=&quot;One of the preliminary sketches&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;/images/fpc_3.jpg&quot;&gt;&lt;img src=&quot;/images/fpc_3.jpg&quot; class=&quot;left quarter&quot; alt=&quot;One of the preliminary sketches&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;/images/fpc_4.jpg&quot;&gt;&lt;img src=&quot;/images/fpc_4.jpg&quot; class=&quot;left quarter&quot; alt=&quot;The final sketch&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;From there, we continued to go through many revisions.  I coded the layout by hand originally, so we could hammer out many of the details before deciding on a &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt;.  Ultimately we went with &lt;a href=&quot;http://wordpress.org&quot;&gt;Wordpress&lt;/a&gt; and I translated the layout into a theme.&lt;/p&gt;
+
+&lt;p&gt;To make &lt;a href=&quot;http://wordpress.org&quot;&gt;Wordpress&lt;/a&gt; do exactly what &lt;abbr title=&quot;ForeFront Packaging Consultants&quot;&gt;FPC&lt;/abbr&gt; wanted, we added a handful of plugins:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wordpress.dwbooster.com/content-tools/codepeople-post-map&quot;&gt;CP Google Maps&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wordpress.org/extend/plugins/jetpack/&quot;&gt;Jetpack&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wordpress.org/extend/plugins/jetpack/&quot;&gt;Ninja Forms&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/Rahe/&#39;simple-image-sizes&#39;&quot;&gt;Simple Image Sizes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://wordpress.org/extend/plugins/slideshow-jquery-image-gallery/&quot;&gt;Slideshow&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://www.fourlightsweb.com/wordpress-plugins/wp-gallery-custom-links/&quot;&gt;WP Gallery Custom Links&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;And the system is easy enough for the employees to add and change content as necessary, though changing layout elements still requires someone familiar with HTML and CSS.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 01 Jun 2014 00:00:00 -0500</pubDate>
-				<link>/blog/portfolio/Front-page.html</link>
-				<guid isPermaLink="true">/blog/portfolio/Front-page.html</guid>
+				<link>http://ashleymmiller.com/blog/portfolio/Forefront-Packaging.html</link>
+				<guid isPermaLink="true">http://ashleymmiller.com/blog/portfolio/Forefront-Packaging.html</guid>
 			</item>
 		
 			<item>
@@ -120,8 +150,39 @@
 &lt;p&gt;Though I still have issues with Sharepoint as an external website &lt;abbr title=&quot;Content Management System&quot;&gt;CMS&lt;/abbr&gt;, it did provide solutions to the content editors problems.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 29 May 2014 00:00:00 -0500</pubDate>
-				<link>/blog/portfolio/The-VAC.html</link>
-				<guid isPermaLink="true">/blog/portfolio/The-VAC.html</guid>
+				<link>http://ashleymmiller.com/blog/portfolio/The-VAC.html</link>
+				<guid isPermaLink="true">http://ashleymmiller.com/blog/portfolio/The-VAC.html</guid>
+			</item>
+		
+			<item>
+				<title>Alert Lake County</title>
+				<description>&lt;p&gt;&lt;em&gt;This is a backdated post.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/alc_old.jpg&quot;&gt;&lt;img src=&quot;/images/alc_old.jpg&quot; class=&quot;right half&quot; alt=&quot;Old front page&quot; /&gt;&lt;/a&gt;The original Alert Lake County website was located on a server that the county&#39;s emergency response team could not access without IT&#39;s help.  In the case of an emergency, that extra time was unacceptable.  The website was moved to the current Sharepoint installation and we took that opportunity to redesign and update each and every page.&lt;/p&gt;
+
+&lt;p&gt;As always, creating pages within the county requires that we work within the current overall layout of the county pages.  I cannot change the top navigation or the footer, but I can control the design of the content area.&lt;/p&gt;
+
+&lt;h2 id=&quot;the-front-page&quot;&gt;The Front Page&lt;/h2&gt;
+
+&lt;p&gt;The front page was supposed to be a landing page for everything &lt;abbr title=&quot;Alert Lake County&quot;&gt;ALC&lt;/abbr&gt; had to offer, including social media.  &lt;/p&gt;
+
+&lt;p&gt;The weather app updates for Waukegan, IL, not the user&#39;s location, because we found that its ability to locate an individual was off.  Though we were in Waukegan, it kept displaying weather for Winthrop Harbor.  The image next to the weather app displays an image of the seasonal weather threat and links to the appropriate response page.&lt;/p&gt;
+
+&lt;p&gt;The two black sections in the middle link to almost every page on the website, divided into two categories.  The category divisions were from the original site.&lt;/p&gt;
+
+&lt;p&gt;The bottom two sections link to all of the social media and related websites and also displays the most recent tweets from the &lt;abbr title=&quot;Alert Lake County&quot;&gt;ALC&lt;/abbr&gt; twitter.&lt;/p&gt;
+
+&lt;p&gt;There&#39;s also a hidden section on the front page that displays emergency information.  It can easily be unhidden by anyone who has permission to edit the page.&lt;/p&gt;
+
+&lt;h2 id=&quot;emergency-prep-and-response&quot;&gt;Emergency Prep. and Response&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;/images/alc_1.jpg&quot;&gt;&lt;img src=&quot;/images/alc_1.jpg&quot; class=&quot;right half&quot; alt=&quot;Old front page&quot; /&gt;&lt;/a&gt;&lt;a href=&quot;/images/alc_2.jpg&quot;&gt;&lt;img src=&quot;/images/alc_2.jpg&quot; class=&quot;left half&quot; alt=&quot;Old front page&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Each section had articles already available.  We expanded this information where necessary, updated it, and added links to related videos and other county websites.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 05 May 2014 00:00:00 -0500</pubDate>
+				<link>http://ashleymmiller.com/blog/portfolio/ALC.html</link>
+				<guid isPermaLink="true">http://ashleymmiller.com/blog/portfolio/ALC.html</guid>
 			</item>
 		
 			<item>
@@ -130,7 +191,7 @@
 
 &lt;p&gt;I started working at the county in late January.  My first big project came from the &lt;a href=&quot;http://www.swalco.org/&quot;&gt;Solid Waste Agency of Lake County (SWALCO)&lt;/a&gt;. I was still unfamiliar with Sharepoint at this time, though I was quickly learning.  This ended up being a perfect starting point.&lt;/p&gt;
 
-&lt;p&gt;&lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; got a minor facelift and most of the work went into reorganizing and rewriting pages.&lt;/p&gt;
+&lt;p&gt;&lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; got a facelift and most of the work went into reorganizing and rewriting pages.&lt;/p&gt;
 
 &lt;h2 id=&quot;the-process&quot;&gt;The Process&lt;/h2&gt;
 
@@ -140,7 +201,7 @@
 
 &lt;h3 id=&quot;the-front-page&quot;&gt;The Front Page&lt;/h3&gt;
 
-&lt;p&gt;&lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; wanted something a little more fun and colorful than the other county departments, so I obliged.  I gave their most popular categories large, rainbow-colored buttons and gave their major initiative (Recycle First Trash Last) top billing.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;/images/swalco_old.jpg&quot;&gt;&lt;img src=&quot;/images/swalco_old.jpg&quot; class=&quot;right half&quot; alt=&quot;Old front page&quot; /&gt;&lt;/a&gt;&lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; wanted something a little more fun and colorful than the other county departments, so I obliged.  Inspired by the original homepage, seen right, I gave their most popular categories large, rainbow-colored buttons and gave their major initiative (Recycle First Trash Last) top billing.&lt;/p&gt;
 
 &lt;p&gt;The content editors at &lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; are constantly updating the news section with new publications and new events.  The old layout required users to scroll past several screens to see the news.  By putting the news next to the introduction, users see everything much more easily.&lt;/p&gt;
 
@@ -153,8 +214,8 @@
 &lt;p&gt;Looking at it a couple months on, there are a lot of things I would do differently.  But for someone who had never touched Sharepoint before in their life, I think it was a fine effort.  And &lt;abbr title=&quot;Solid Waste Agency of Lake County&quot;&gt;SWALCO&lt;/abbr&gt; still loves their page, which is really the most important thing.&lt;/p&gt;
 </description>
 				<pubDate>Fri, 21 Mar 2014 00:00:00 -0500</pubDate>
-				<link>/blog/portfolio/SWALCO.html</link>
-				<guid isPermaLink="true">/blog/portfolio/SWALCO.html</guid>
+				<link>http://ashleymmiller.com/blog/portfolio/SWALCO.html</link>
+				<guid isPermaLink="true">http://ashleymmiller.com/blog/portfolio/SWALCO.html</guid>
 			</item>
 		
 	</channel>

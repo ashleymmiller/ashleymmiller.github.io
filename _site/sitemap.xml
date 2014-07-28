@@ -3,7 +3,7 @@
   
     
     <url>
-      <loc>/blog/tech/Getting-started.html</loc>
+      <loc>http://ashleymmiller.com/blog/tech/Getting-started.html</loc>
       
         <lastmod>2014-07-04T00:00:00-05:00</lastmod>
       
@@ -18,7 +18,22 @@
   
     
     <url>
-      <loc>/blog/portfolio/Front-page.html</loc>
+      <loc>http://ashleymmiller.com/blog/portfolio/Front-page.html</loc>
+      
+        <lastmod>2014-06-10T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://ashleymmiller.com/blog/portfolio/Forefront-Packaging.html</loc>
       
         <lastmod>2014-06-01T00:00:00-05:00</lastmod>
       
@@ -33,7 +48,7 @@
   
     
     <url>
-      <loc>/blog/portfolio/The-VAC.html</loc>
+      <loc>http://ashleymmiller.com/blog/portfolio/The-VAC.html</loc>
       
         <lastmod>2014-05-29T00:00:00-05:00</lastmod>
       
@@ -48,7 +63,22 @@
   
     
     <url>
-      <loc>/blog/portfolio/SWALCO.html</loc>
+      <loc>http://ashleymmiller.com/blog/portfolio/ALC.html</loc>
+      
+        <lastmod>2014-05-05T00:00:00-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.5</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://ashleymmiller.com/blog/portfolio/SWALCO.html</loc>
       
         <lastmod>2014-03-21T00:00:00-05:00</lastmod>
       
@@ -64,24 +94,9 @@
   
     
     <url>
-      <loc>/about.html</loc>
+      <loc>http://ashleymmiller.com/about.html</loc>
       
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/blog.html</loc>
-      
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -94,24 +109,9 @@
   
     
     <url>
-      <loc>/contact.html</loc>
+      <loc>http://ashleymmiller.com/blog.html</loc>
       
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/feed.xml</loc>
-      
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -124,24 +124,9 @@
   
     
     <url>
-      <loc>/</loc>
+      <loc>http://ashleymmiller.com/contact.html</loc>
       
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/personal.html</loc>
-      
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -154,24 +139,9 @@
   
     
     <url>
-      <loc>/portfolio.html</loc>
+      <loc>http://ashleymmiller.com/feed.xml</loc>
       
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>/sitemap.xml</loc>
-      
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -184,9 +154,69 @@
   
     
     <url>
-      <loc>/tech.html</loc>
+      <loc>http://ashleymmiller.com/</loc>
       
-        <lastmod>2014-07-25T23:37:03-05:00</lastmod>
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://ashleymmiller.com/personal.html</loc>
+      
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://ashleymmiller.com/portfolio.html</loc>
+      
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://ashleymmiller.com/sitemap.xml</loc>
+      
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>http://ashleymmiller.com/tech.html</loc>
+      
+        <lastmod>2014-07-27T19:50:52-05:00</lastmod>
       
       
         <changefreq>monthly</changefreq>

@@ -36,4 +36,4 @@ What I could do personally with the Header and Footer was limited.  Changes were
 
 ##What\'s Next?
 
-I\'m currently in the process of condensing the top navigation so that users do not have to hover through many layers of drop-down menus.  We've also put in a request for funding for a new <abbr title="Content Management System">CMS</abbr> that gets us away from Sharepoint.  That will also give us the opportunity to completely redo the layout, which will only get us closer 
+I\'m currently in the process of condensing the top navigation so that users do not have to hover through many layers of drop-down menus.  We\'ve also put in a request for funding for a new <abbr title="Content Management System">CMS</abbr> that gets us away from Sharepoint.  That will also give us the opportunity to completely redo the layout, which will only get us closer 
