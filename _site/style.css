@@ -49,7 +49,7 @@ body {
 	padding: 0;
 }
 
-div#one, footer {
+nav, footer {
 	width: 100%;
 	display: block;
 	background-color: #ff9900;

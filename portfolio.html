@@ -13,8 +13,7 @@ title: Portfolio of Ashley M. Miller
 <div id="main_blog">
 
 {% for post in site.categories.portfolio %}
-<div class="featured"><a href="{{ post.url }}"><img src="{{ base.url }}/images/{{ post.image }}" alt="{{ post.title }}" /></a>
-<a href="{{ post.url }}"><h2>{{ post.title }}</h2></a></div>
+<div class="featured"><a href="{{ post.url }}"><img src="{{ base.url }}/images/{{ post.image }}" alt="{{ post.title }}" /></a></div>
 {% endfor %}
 
 </div>
