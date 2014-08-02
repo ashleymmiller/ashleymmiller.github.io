@@ -3,11 +3,31 @@
 <link rel="stylesheet" href="/style.css"/>
 <link rel="alternate" type="application/rss+xml" title="Portfolio of Ashley M. Miller" href="http://ashleymmiller.com/feed.xml">
 <title>Portfolio of Ashley M. Miller</title>
-<meta name="viewport" content="width=device-width">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">  
 <meta charset="UTF-8">
 <meta name="description" content="Front-end development portfolio for Ashley Miller">
 <meta name="keywords" content="HTML,CSS,front-end development,web design,web development,portfolio,personal site,personal">
 <meta name="author" content="Ashley Miller">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script>
+		$(function() {
+			var pull 		= $('#pull');
+				menu 		= $('nav ul');
+				menuHeight	= menu.height();
+
+			$(pull).on('click', function(e) {
+				e.preventDefault();
+				menu.slideToggle();
+			});
+
+			$(window).resize(function(){
+        		var w = $(window).width();
+        		if(w > 320 && menu.is(':hidden')) {
+        			menu.removeAttr('style');
+        		}
+    		});
+		});
+	</script>
 </head>
 <body>
 
@@ -18,6 +38,7 @@
 <li><a href="/blog.html">Blog</a></li>
 <li><a href="/contact.html">Contact</a></li>
 </ul>
+<a href="#" id="pull">Menu</a>
 </nav>
 
 <div id="two">
@@ -30,20 +51,15 @@
 <div id="main_blog">
 
 
-<div class="featured"><a href="/blog/portfolio/Front-page.html"><img src="/images/lcilfront.jpg" alt="Front Page of Lake County, IL" /></a>
-<a href="/blog/portfolio/Front-page.html"><h2>Front Page of Lake County, IL</h2></a></div>
+<div class="featured"><a href="/blog/portfolio/Front-page.html"><img src="/images/lcilfront.jpg" alt="Front Page of Lake County, IL" /></a></div>
 
-<div class="featured"><a href="/blog/portfolio/Forefront-Packaging.html"><img src="/images/fpc.jpg" alt="ForeFront Packaging Consultants" /></a>
-<a href="/blog/portfolio/Forefront-Packaging.html"><h2>ForeFront Packaging Consultants</h2></a></div>
+<div class="featured"><a href="/blog/portfolio/Forefront-Packaging.html"><img src="/images/fpc.jpg" alt="ForeFront Packaging Consultants" /></a></div>
 
-<div class="featured"><a href="/blog/portfolio/The-VAC.html"><img src="/images/lcilvac.jpg" alt="The VAC" /></a>
-<a href="/blog/portfolio/The-VAC.html"><h2>The VAC</h2></a></div>
+<div class="featured"><a href="/blog/portfolio/The-VAC.html"><img src="/images/lcilvac.jpg" alt="The VAC" /></a></div>
 
-<div class="featured"><a href="/blog/portfolio/ALC.html"><img src="/images/alc.jpg" alt="Alert Lake County" /></a>
-<a href="/blog/portfolio/ALC.html"><h2>Alert Lake County</h2></a></div>
+<div class="featured"><a href="/blog/portfolio/ALC.html"><img src="/images/alc.jpg" alt="Alert Lake County" /></a></div>
 
-<div class="featured"><a href="/blog/portfolio/SWALCO.html"><img src="/images/swalco.jpg" alt="SWALCO" /></a>
-<a href="/blog/portfolio/SWALCO.html"><h2>SWALCO</h2></a></div>
+<div class="featured"><a href="/blog/portfolio/SWALCO.html"><img src="/images/swalco.jpg" alt="SWALCO" /></a></div>
 
 
 </div>
