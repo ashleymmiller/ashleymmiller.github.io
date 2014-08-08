@@ -369,6 +369,9 @@ nav a#pull {
 	.featured {
 		width: 193px;
 	}
+	div#main_blog form label {
+		color: white;
+	}
 }
 
 /*Styles for screen 515px and lower*/
@@ -422,5 +425,8 @@ nav a#pull {
 		float: none;
 		width: 100%;
 		display: block;
+	}
+	div#main_blog form label {
+		color: white;
 	}
 }
