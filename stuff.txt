@@ -1,0 +1,61 @@
+div#two, div#five {
+	width: 100%;
+	display: block;
+	background-color: #3299bb;
+	background-image: url('{{ base.url }}/images/bluebg.jpg');
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+}
+div#three, div#four {
+	width: 100%;
+	display: block;
+	padding: 10px 0;
+	text-align: center;
+	clear: both;
+}
+div#five {
+	margin-top: 50px;
+}
+div#main_about, div#main_portfolio, div#main_blog, div#main_contact, div#main_footer {
+	width: 800px;
+	margin: 0 auto;
+}
+#main_about img {
+	border: 0px;
+}
+#main_about h1 {
+	font-size: 1.8em;
+	text-align: left;
+	line-height: 1.4em;
+	font-weight: normal;
+	padding-top: 7px;
+}
+
+#main_about h1 small {
+	font-size: .85em;
+}
+h2 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.5em;
+	text-transform: capitalize;
+}
+
+h3 {
+	text-align: left;
+	font-weight: normal;
+	font-size: 1.25em;
+	color: #3299bb;
+}
+
+h3 em {
+	float: right;
+	color: #72b0c5;
+	font-size: .9em;
+}
+#main_portfolio p, #main_blog p, #main_blog ul, #main_contact p {
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 1.8em;
+}
