@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: videopost
 title: "Roadside Attractions Pitch"
 categories: portfolio
 image: pitch.jpg
