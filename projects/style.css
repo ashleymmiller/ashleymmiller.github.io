@@ -1,0 +1,57 @@
+body {
+	font-family: 'Rosario', sans-serif;
+}
+
+#main {
+	width: 765px;
+	margin: 0 auto;
+}
+
+#leftside {
+	width: 48%;
+	padding: 0px 1%;
+	float: left;
+	text-align: center;
+}
+
+#rightside {
+	width: 48%;
+	padding: 0px 1%;
+	float: right;
+}
+
+#header, #header2, #header3, #header4, #header5 {
+	font-size: 50pt;
+	font-weight: bold;
+}
+#header2 {
+	letter-spacing: -.75pt;
+}
+#header3 {
+	letter-spacing: 1.3pt;
+}
+#header4 {
+	letter-spacing: 1.8pt;
+}
+.subheader p {
+	font-size: 22pt;
+	text-align: justify;
+	line-height: 28pt;
+}
+.sub1 {
+	word-spacing: 0pt;
+}
+#rightside {
+	padding-top: 5px;
+}
+#rightside p {
+	font-size: 11.8pt;
+	text-align: justify;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+p#author {
+	text-align: center !important;
+	font-style: italic;
+	font-size: 14pt;
+}
